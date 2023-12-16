@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@700;900&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato&family=Montserrat:wght@700;900&family=Poppins:wght@700&display=swap');
+
+:root {
+  --main-orange: #FF6E3A;
+  --width-mobile: 390px;
+  --main-green: #34A84D;
+
+}
+
+*{
+  margin: 0;
+}
+
+nav {
+  background-color: var(--main-orange);
+  width: var(--width-mobile);
+  height: 80px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.logo {
+padding-left: 22px;
+}
+
+.options {
+  padding-right: 25px;
+}
+
+.main {
+  width: var(--width-mobile);
+  height: 764px;
+  position: relative;
+}
+
+main img {
+position: absolute;
+}
+
+main h1 {
+  position: absolute;
+  width: 245.246px;
+  color: var(--main-orange);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  height: 30px;
+  padding-top: 40px;
+}
+
+main h2 {
+  color: #333333;
+  display: flex;
+width: 358px;
+height: 193px;
+flex-direction: column;
+justify-content: center;
+  position: absolute;
+  padding-top: 90px;
+  padding-left: 25px;
+  font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+}
+
+main .vector {
+  position: absolute;
+  padding-top: 282px;
+  padding-left: 25px;
+}
+
+main p {
+  position: absolute;
+  width: 357px;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+padding-top: 330px;
+padding-left: 24px;
+color: #333333;
+}
+
+main button {
+  
+  position:absolute;
+  margin-top: 485px;
+  background-color: var(--main-green);
+  
+width: 301.448px;
+height: 41px;
+border-radius: 10px;
+color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+gap: 8px;
+border:1px;
+margin-left: 48px;
+}
+
+.main-pizza {
+  position: absolute;
+  padding-top: 570px;
+  padding-left: 25px;
+}
+
+.cards-container {
+ position: relative;
+  width: var(--width-mobile);
+  height: 1882px;
+  margin-top:850px;
+}
+
+.cards-title {
+  
+width: 357px;
+height: 30px;
+
+justify-content: center;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 571.429% */
+text-transform: uppercase;
+color:#333333;
+
+margin-left: 5px;
+margin-top: -60px;
+}
+
+.cards-title2 {
+  text-align: center;
+
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+color: var(--main-orange);
+margin-top: 40px;
+}
+
+.card {
+  position: relative;
+  width: 299.167px;
+  margin-left: 45px;
+  margin-top: 25px;
+  border-radius: 20px;
+  border: none;
+  height: 434.579px;
+  box-shadow: 0px 2.463px 4.187px 0px rgba(0, 0, 0, 0.00), 0px 10.838px 8.67px 0px rgba(0, 0, 0, 0.01), 0px 26.602px 17.292px 0px rgba(0, 0, 0, 0.01), 0px 51.234px 33.893px 0px rgba(0, 0, 0, 0.01), 0px 86.212px 62.319px 0px rgba(0, 0, 0, 0.02), 0px 133.012px 106.41px 0px rgba(0, 0, 0, 0.02);
+ padding-bottom: 115px;
+ margin-bottom: 10px;
+  
+}
+
+.card-image {
+  background-image: url(pizzas.jpg);
+  background-size: 100%;
+  
+  
+  
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  
+}.card-image1 {
+
+  background-image: url(Rectangle14.png);
+ 
+  margin-left: -105px;
+  border-radius: 20px;
+  width: 110%;
+  height: 100%;
+  object-fit: fill;
+  padding-right: 100px;
+  
+}
+
+.card-image2 {
+
+  background-image: url(Alitas-Picositas-Marinadas.jpg);
+ background-size: 300px 425px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 298.742px;
+  height: 434.624px;
+  object-fit: fill;
+  margin-bottom: 10px;
+  
+}
+.card-image3 {
+
+  background-image: url(paquetes-hamburguesa-pizza.jpg);
+ background-size: 300px 360px;
+ background-repeat: no-repeat;
+  object-fit: fill;
+  border-radius: 20px;
+  width: 320.742px;
+  height: 400.624px;
+  
+  margin-bottom: 10px;
+  
+}
+
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+margin-top: -20px;
+  background-color: #FFF;
+  border: 5px;
+  justify-items: center;
+  align-items: center;
+  border-color: #333333;
+}
+
+.card-footer p {
+  color: #373737;
+  
+text-align: center;
+font-family: Poppins;
+font-size: 23.942px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%;
+width: 300px;
+height: 21.711px;
+padding-top: 20px;
+}
+
+.card-footer button {
+  display: flex;
+width: 152.5px;
+height: 31.667px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 10px;
+background-color: #34A84D;
+color: #FFF;
+margin-top: 20px;
+margin-bottom: 20px;
+
+border:none;
+}
+
+.opinion {
+  background-image: url(./src/images/Fondo.png);
+  display: flex;
+  flex-direction: column;
+  width: var(--width-mobile);
+  height: 664px;
+  margin-top: 600px;
+  align-content: center;
+}
+
+.opinion1 {
+  text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 400% */
+font-variant: all-small-caps;
+}
+
+.opinion2 {
+  color: var(--main-orange);
+  text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+margin-top: -10px;
+}
+
+.calificacion {
+  margin-top: 90px; 
+  margin-left: 100px;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.google {
+  margin-top: 15px;
+  margin-left: 138px;
+  max-width: 30%;
+}
+
+.google:hover {
+  cursor: pointer;
+}
+
+.tripadvisor {
+  margin-top:90px;
+  max-width: 50%;
+  margin-left: 95px;
+}
+
+.tripadvisorLogo {
+  max-width: 40%;
+  max-height: 100%;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 110, 58, 0.05);
+  display: flex;
+width: 390px;
+height: 400px;
+padding: 30px 17px 30.173px 16px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.mtitle {
+  display: flex;
+width: 357px;
+height: 40px;
+flex-direction: column;
+justify-content: center;
+  color:var(--main-orange);
+  text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 25px; /* 104.167% */
+letter-spacing: 0.48px;
+text-transform: uppercase;
+font-weight: bolder;
+margin-top: -70px;
+margin-left: -25px;
+}
+
+.ctitle {
+  font-feature-settings: 'clig' off, 'liga' off;
+font-family: Source Sans Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+color: var(--main-orange);
+margin-left: -25px;
+}
+
+.info-contacto {
+  margin-top: 5px;
+  text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px; /* 107.143% */
+letter-spacing: 0.28px;
+color: #333333;
+margin-left: -25px;
+}
+
+.doubleIcon {
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+.doubleIcon img {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.privacidad{ 
+  margin-top: 10px;
+  color: var(--main-orange);
+
+}
+.tyc {
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 178.571% */
+letter-spacing: 0.28px;
+}
